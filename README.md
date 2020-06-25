@@ -8,13 +8,14 @@ You will either need to run a Linux Distribution on its own VM or run Ubuntu or 
 
 Repository access (GitHub account - sign up here: <https://github.com/join>)
 
+TOOLS
+
+Editors
+    Visual Studio Code - Best Test Editor on Windows machine
+    VI, subsumed by VIM is another editor, see https://vim.rtorr.com/
 
 Tools
-    
-    Visual Studio Code - Editor 
 
-   VI is subsumed by VIM, see https://vim.rtorr.com/
-   
-    nmap - main vulnerability incident response tool
-
-3. Practice
+nmap 
+for example, 'nmap -v -A www.securenetwork.tech > ~/results.txt' 
+The -v means verbose, -A means OS and services, I think ">" means output to, "~/" is the home dir then file name.
