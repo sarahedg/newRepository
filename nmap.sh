@@ -1,1 +1,2 @@
-nmap -v -A 192.168.0.1 -oX ~/whatever.xml
+cd $HOME
+nmap -v -A -iL ips.txt -oN output_nmap.txt
