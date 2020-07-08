@@ -1,6 +1,6 @@
 # Sarah's Linux Notes
 
-Daily log in to SSH key to Github so that you can avoid entering passwords when editing
+## Daily log in to SSH key to Github so that you can avoid entering passwords when editing
 
 'ls -la' hidden files
 colors per linux distro
@@ -28,4 +28,8 @@ what is running on your computer:  'ps' command
 'ps aux' programs running
 'top' is like task mngr, q key to leave
 'ifconfig eth0 10.10.10.10' to change ip
-'dhclient eth0' for dscp 
+'dhclient eth0' for dscp
+
+## 7-1-2020
+
+Homework:  figure out how to script nmap against multiple hosts for next time Monday 6 July
