@@ -25,6 +25,13 @@ updated nmap script contents:
 cd $HOME
 nmap -v -A -iL ips.txt -oN output_nmap.txt
 
+when run, shell or docker did not like the $HOME:
+root@682ab4c7d9db:~# ./nmap.sh
+./nmap.sh: line 1: cd: $'/root\r': No such file or directory
+
+so, I need to put the full path into the below ~/<path>/file.names 
+nmap -v -A -iL ips.txt -oN output_nmap.txt
+
 -iL means interactive list (then name of text file list in Kali_root dir)
 -oN means normal output (see nmap.org) then supply a name of the output file
 
@@ -32,3 +39,7 @@ nmap -v -A -iL ips.txt -oN output_nmap.txt
 
     Visual Studio Code - Best Text Editor for working on Windows machine
     VI, subsumed by VIM is another editor, see <https://vim.rtorr.com/>
+    To use it, at the root user home promt: 
+    root@682ab4c7d9db:~# vi ioc-scanner-CVE-2019-19781-v1.4.sh
+
+    `wget https://github.com/fireeye/ioc-scanner-CVE-2019-19781/releases/download/v1.4/ioc-scanner-CVE-2019-19781-v1.4.sh`
