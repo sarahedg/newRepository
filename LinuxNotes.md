@@ -28,6 +28,10 @@ put the full path into the below ~/<path>/file.names
 
 nmap -v -A -iL ips.txt -oN output_nmap.txt
 
+./filename will run this file from root
+
+`nmap.sh`
+
 -iL means interactive list (then name of text file list in Kali_root dir)
 -oN means normal output (see nmap.org) then supply a name of the output file
 
