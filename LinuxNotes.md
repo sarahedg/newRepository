@@ -3,9 +3,11 @@
 ## Linux Itself
 
 Either run a Linux Distribution on its own VM or within a Docker Container on a Windows machine
-Sarah will start a customized kali image via Docker, each session:  
-    `docker run -ti --rm -v $HOME/kali_root:/root my-kali`
-    
+
+Sarah will start a customized kali image via: 
+  --old  `docker run -ti --rm -v $HOME/kali_root:/root my-kali`
+  --current:  `docker-compose run --rm --service-ports kali`
+      
 ## Github
 
 Repository access (GitHub account - sign up here: <https://github.com/join>)
